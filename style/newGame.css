@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Tomorrow;
+}
+
+body{
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.cell{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border: 1px solid #3FFA00;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(147, 255, 126);
+  box-shadow: 0px 0px 60px 7px rgba(33, 247, 0, 0.6) inset;
+  -webkit-box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.6) inset;
+  -moz-box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.6) inset;
+}
+
+.field{
+  border: 3px solid #3FFA00;
+  border-radius: 5px;
+}
+
+.time-moves{
+ display: flex;
+ width: 300px;
+ justify-content: space-between;
+ margin-top: 20px;
+
+}
+
+.youWin{
+  font-size: 80px;
+}
+
+.submitBtn,
+.easy,
+.medium,
+.hard,
+.expert
+{
+  border: 2px solid black;
+  background-color: blueviolet;
+  color: #3FFA00;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.submitBtn:hover,
+.easy:hover,
+.medium:hover,
+.hard:hover,
+.expert:hover
+{
+  
+  color: black;
+  border: 2px solid #3FFA00;
+  box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.29) inset;
+  -webkit-box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.29) inset;
+  -moz-box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.29) inset;
+  transition: 0.3s ease-in;
+}
+
+.nameInput{
+  width: 200px;
+  height: 36px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.displayTime, .displayMoves {
+margin: 30px 0px 0px 0px;
+}
+
+a{
+  border: 2px solid black;
+  background-color: blueviolet;
+  color: #3FFA00;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  margin-top: 50px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+a:hover{
+  
+  color: black;
+  border: 2px solid #3FFA00;
+  box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.29) inset;
+  -webkit-box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.29) inset;
+  -moz-box-shadow: 0px 0px 60px 7px rgba(32,247,0,0.29) inset;
+  transition: 0.3s ease-in;
+}
