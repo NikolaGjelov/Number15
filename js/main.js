@@ -99,6 +99,7 @@ function draw () {
       }
     }
   }
+  
 }
 
 
@@ -113,6 +114,7 @@ function makeMove(move){
   values[emptyY][emptyX] = c
   emptyY = newY
   emptyX = newX
+
   return true
 }
 let movesCount=0
